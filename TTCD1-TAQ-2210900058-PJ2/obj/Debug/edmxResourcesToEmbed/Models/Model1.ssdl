@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="quan_ly_tiem_netModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ChiTietPhienChoi">
+    <Key>
+      <PropertyRef Name="ma_chi_tiet" />
+    </Key>
+    <Property Name="ma_chi_tiet" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ma_phien" Type="int" />
+    <Property Name="ma_may_tinh" Type="int" />
+    <Property Name="thoi_gian_vao" Type="datetime" Nullable="false" />
+    <Property Name="thoi_gian_ra" Type="datetime" />
+    <Property Name="thoi_luong" Type="decimal" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="GiaoDich">
+    <Key>
+      <PropertyRef Name="ma_giao_dich" />
+    </Key>
+    <Property Name="ma_giao_dich" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ma_nguoi_dung" Type="int" />
+    <Property Name="loai_giao_dich" Type="varchar" MaxLength="20" />
+    <Property Name="so_tien" Type="decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="ngay_giao_dich" Type="datetime" />
+  </EntityType>
+  <EntityType Name="MayTinh">
+    <Key>
+      <PropertyRef Name="ma_may_tinh" />
+    </Key>
+    <Property Name="ma_may_tinh" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ten_may_tinh" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="trang_thai" Type="varchar" MaxLength="20" />
+    <Property Name="vi_tri" Type="varchar" MaxLength="100" />
+    <Property Name="ngay_tao" Type="datetime" />
+  </EntityType>
+  <EntityType Name="NguoiDung">
+    <Key>
+      <PropertyRef Name="ma_nguoi_dung" />
+    </Key>
+    <Property Name="ma_nguoi_dung" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ten_dang_nhap" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="mat_khau" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="vai_tro" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="ho_ten" Type="varchar" MaxLength="100" />
+    <Property Name="email" Type="varchar" MaxLength="100" />
+    <Property Name="dien_thoai" Type="varchar" MaxLength="20" />
+    <Property Name="so_du" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="ngay_tao" Type="datetime" />
+  </EntityType>
+  <EntityType Name="PhienChoi">
+    <Key>
+      <PropertyRef Name="ma_phien" />
+    </Key>
+    <Property Name="ma_phien" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ma_nguoi_dung" Type="int" />
+    <Property Name="ma_may_tinh" Type="int" />
+    <Property Name="thoi_gian_bat_dau" Type="datetime" Nullable="false" />
+    <Property Name="thoi_gian_ket_thuc" Type="datetime" />
+    <Property Name="tong_thoi_gian" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="tong_chi_phi" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="trang_thai" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <Association Name="FK__ChiTietPh__ma_ma__619B8048">
+    <End Role="MayTinh" Type="Self.MayTinh" Multiplicity="0..1" />
+    <End Role="ChiTietPhienChoi" Type="Self.ChiTietPhienChoi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MayTinh">
+        <PropertyRef Name="ma_may_tinh" />
+      </Principal>
+      <Dependent Role="ChiTietPhienChoi">
+        <PropertyRef Name="ma_may_tinh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ChiTietPh__ma_ph__60A75C0F">
+    <End Role="PhienChoi" Type="Self.PhienChoi" Multiplicity="0..1" />
+    <End Role="ChiTietPhienChoi" Type="Self.ChiTietPhienChoi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhienChoi">
+        <PropertyRef Name="ma_phien" />
+      </Principal>
+      <Dependent Role="ChiTietPhienChoi">
+        <PropertyRef Name="ma_phien" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__GiaoDich__ma_ngu__5DCAEF64">
+    <End Role="NguoiDung" Type="Self.NguoiDung" Multiplicity="0..1" />
+    <End Role="GiaoDich" Type="Self.GiaoDich" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NguoiDung">
+        <PropertyRef Name="ma_nguoi_dung" />
+      </Principal>
+      <Dependent Role="GiaoDich">
+        <PropertyRef Name="ma_nguoi_dung" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PhienChoi__ma_ma__5812160E">
+    <End Role="MayTinh" Type="Self.MayTinh" Multiplicity="0..1" />
+    <End Role="PhienChoi" Type="Self.PhienChoi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MayTinh">
+        <PropertyRef Name="ma_may_tinh" />
+      </Principal>
+      <Dependent Role="PhienChoi">
+        <PropertyRef Name="ma_may_tinh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PhienChoi__ma_ng__571DF1D5">
+    <End Role="NguoiDung" Type="Self.NguoiDung" Multiplicity="0..1" />
+    <End Role="PhienChoi" Type="Self.PhienChoi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NguoiDung">
+        <PropertyRef Name="ma_nguoi_dung" />
+      </Principal>
+      <Dependent Role="PhienChoi">
+        <PropertyRef Name="ma_nguoi_dung" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="quan_ly_tiem_netModelStoreContainer">
+    <EntitySet Name="ChiTietPhienChoi" EntityType="Self.ChiTietPhienChoi" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GiaoDich" EntityType="Self.GiaoDich" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MayTinh" EntityType="Self.MayTinh" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="NguoiDung" EntityType="Self.NguoiDung" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PhienChoi" EntityType="Self.PhienChoi" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__ChiTietPh__ma_ma__619B8048" Association="Self.FK__ChiTietPh__ma_ma__619B8048">
+      <End Role="MayTinh" EntitySet="MayTinh" />
+      <End Role="ChiTietPhienChoi" EntitySet="ChiTietPhienChoi" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ChiTietPh__ma_ph__60A75C0F" Association="Self.FK__ChiTietPh__ma_ph__60A75C0F">
+      <End Role="PhienChoi" EntitySet="PhienChoi" />
+      <End Role="ChiTietPhienChoi" EntitySet="ChiTietPhienChoi" />
+    </AssociationSet>
+    <AssociationSet Name="FK__GiaoDich__ma_ngu__5DCAEF64" Association="Self.FK__GiaoDich__ma_ngu__5DCAEF64">
+      <End Role="NguoiDung" EntitySet="NguoiDung" />
+      <End Role="GiaoDich" EntitySet="GiaoDich" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PhienChoi__ma_ma__5812160E" Association="Self.FK__PhienChoi__ma_ma__5812160E">
+      <End Role="MayTinh" EntitySet="MayTinh" />
+      <End Role="PhienChoi" EntitySet="PhienChoi" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PhienChoi__ma_ng__571DF1D5" Association="Self.FK__PhienChoi__ma_ng__571DF1D5">
+      <End Role="NguoiDung" EntitySet="NguoiDung" />
+      <End Role="PhienChoi" EntitySet="PhienChoi" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

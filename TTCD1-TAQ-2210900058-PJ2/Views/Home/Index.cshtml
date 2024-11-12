@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Trang Chủ";
+}
+
+<div class="jumbotron text-center bg-light p-5">
+    <h1 class="display-4">Chào Mừng Đến Với Quản Lý Quán Net</h1>
+    <p class="lead">Hãy chọn vai trò của bạn để tiếp tục sử dụng hệ thống.</p>
+    <hr class="my-4">
+
+    <div class="d-flex justify-content-center gap-3">
+        <a href="@Url.Action("Login", "Admin")" class="btn btn-primary btn-lg">Đăng Nhập Admin</a>
+        <a href="@Url.Action("ChooseComputer", "Customer")" class="btn btn-success btn-lg">Đăng Nhập Khách Hàng</a>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <h2 class="mb-4">Các Tính Năng Nổi Bật</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/Content/images/manage.png" class="card-img-top" alt="Quản lý hệ thống">
+                <div class="card-body">
+                    <h5 class="card-title">Quản Lý Hệ Thống</h5>
+                    <p class="card-text">Dành cho Admin để quản lý phiên chơi, người dùng và giao dịch.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/Content/images/computer.png" class="card-img-top" alt="Chọn máy tính">
+                <div class="card-body">
+                    <h5 class="card-title">Chọn Máy Tính</h5>
+                    <p class="card-text">Khách hàng chọn máy để bắt đầu phiên chơi một cách dễ dàng.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="/Content/images/food-menu.png" class="card-img-top" alt="Menu đồ ăn">
+                <div class="card-body">
+                    <h5 class="card-title">Menu Đồ Ăn</h5>
+                    <p class="card-text">Xem và đặt đồ ăn từ menu trong lúc chơi.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

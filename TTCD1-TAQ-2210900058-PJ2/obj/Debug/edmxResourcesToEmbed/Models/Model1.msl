@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="quan_ly_tiem_netModelStoreContainer" CdmEntityContainer="quan_ly_tiem_netEntities">
+    <EntitySetMapping Name="ChiTietPhienChois">
+      <EntityTypeMapping TypeName="quan_ly_tiem_netModel.ChiTietPhienChoi">
+        <MappingFragment StoreEntitySet="ChiTietPhienChoi">
+          <ScalarProperty Name="ma_chi_tiet" ColumnName="ma_chi_tiet" />
+          <ScalarProperty Name="ma_phien" ColumnName="ma_phien" />
+          <ScalarProperty Name="ma_may_tinh" ColumnName="ma_may_tinh" />
+          <ScalarProperty Name="thoi_gian_vao" ColumnName="thoi_gian_vao" />
+          <ScalarProperty Name="thoi_gian_ra" ColumnName="thoi_gian_ra" />
+          <ScalarProperty Name="thoi_luong" ColumnName="thoi_luong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GiaoDiches">
+      <EntityTypeMapping TypeName="quan_ly_tiem_netModel.GiaoDich">
+        <MappingFragment StoreEntitySet="GiaoDich">
+          <ScalarProperty Name="ma_giao_dich" ColumnName="ma_giao_dich" />
+          <ScalarProperty Name="ma_nguoi_dung" ColumnName="ma_nguoi_dung" />
+          <ScalarProperty Name="loai_giao_dich" ColumnName="loai_giao_dich" />
+          <ScalarProperty Name="so_tien" ColumnName="so_tien" />
+          <ScalarProperty Name="ngay_giao_dich" ColumnName="ngay_giao_dich" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MayTinhs">
+      <EntityTypeMapping TypeName="quan_ly_tiem_netModel.MayTinh">
+        <MappingFragment StoreEntitySet="MayTinh">
+          <ScalarProperty Name="ma_may_tinh" ColumnName="ma_may_tinh" />
+          <ScalarProperty Name="ten_may_tinh" ColumnName="ten_may_tinh" />
+          <ScalarProperty Name="trang_thai" ColumnName="trang_thai" />
+          <ScalarProperty Name="vi_tri" ColumnName="vi_tri" />
+          <ScalarProperty Name="ngay_tao" ColumnName="ngay_tao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NguoiDungs">
+      <EntityTypeMapping TypeName="quan_ly_tiem_netModel.NguoiDung">
+        <MappingFragment StoreEntitySet="NguoiDung">
+          <ScalarProperty Name="ma_nguoi_dung" ColumnName="ma_nguoi_dung" />
+          <ScalarProperty Name="ten_dang_nhap" ColumnName="ten_dang_nhap" />
+          <ScalarProperty Name="mat_khau" ColumnName="mat_khau" />
+          <ScalarProperty Name="vai_tro" ColumnName="vai_tro" />
+          <ScalarProperty Name="ho_ten" ColumnName="ho_ten" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="dien_thoai" ColumnName="dien_thoai" />
+          <ScalarProperty Name="so_du" ColumnName="so_du" />
+          <ScalarProperty Name="ngay_tao" ColumnName="ngay_tao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhienChois">
+      <EntityTypeMapping TypeName="quan_ly_tiem_netModel.PhienChoi">
+        <MappingFragment StoreEntitySet="PhienChoi">
+          <ScalarProperty Name="ma_phien" ColumnName="ma_phien" />
+          <ScalarProperty Name="ma_nguoi_dung" ColumnName="ma_nguoi_dung" />
+          <ScalarProperty Name="ma_may_tinh" ColumnName="ma_may_tinh" />
+          <ScalarProperty Name="thoi_gian_bat_dau" ColumnName="thoi_gian_bat_dau" />
+          <ScalarProperty Name="thoi_gian_ket_thuc" ColumnName="thoi_gian_ket_thuc" />
+          <ScalarProperty Name="tong_thoi_gian" ColumnName="tong_thoi_gian" />
+          <ScalarProperty Name="tong_chi_phi" ColumnName="tong_chi_phi" />
+          <ScalarProperty Name="trang_thai" ColumnName="trang_thai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

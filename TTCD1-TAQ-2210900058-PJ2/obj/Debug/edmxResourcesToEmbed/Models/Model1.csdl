@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="quan_ly_tiem_netModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ChiTietPhienChoi">
+    <Key>
+      <PropertyRef Name="ma_chi_tiet" />
+    </Key>
+    <Property Name="ma_chi_tiet" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ma_phien" Type="Int32" />
+    <Property Name="ma_may_tinh" Type="Int32" />
+    <Property Name="thoi_gian_vao" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="thoi_gian_ra" Type="DateTime" Precision="3" />
+    <Property Name="thoi_luong" Type="Decimal" Precision="10" Scale="2" />
+    <NavigationProperty Name="MayTinh" Relationship="Self.FK__ChiTietPh__ma_ma__619B8048" FromRole="ChiTietPhienChoi" ToRole="MayTinh" />
+    <NavigationProperty Name="PhienChoi" Relationship="Self.FK__ChiTietPh__ma_ph__60A75C0F" FromRole="ChiTietPhienChoi" ToRole="PhienChoi" />
+  </EntityType>
+  <EntityType Name="GiaoDich">
+    <Key>
+      <PropertyRef Name="ma_giao_dich" />
+    </Key>
+    <Property Name="ma_giao_dich" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ma_nguoi_dung" Type="Int32" />
+    <Property Name="loai_giao_dich" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="so_tien" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="ngay_giao_dich" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="NguoiDung" Relationship="Self.FK__GiaoDich__ma_ngu__5DCAEF64" FromRole="GiaoDich" ToRole="NguoiDung" />
+  </EntityType>
+  <EntityType Name="MayTinh">
+    <Key>
+      <PropertyRef Name="ma_may_tinh" />
+    </Key>
+    <Property Name="ma_may_tinh" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ten_may_tinh" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="trang_thai" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="vi_tri" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ngay_tao" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="ChiTietPhienChois" Relationship="Self.FK__ChiTietPh__ma_ma__619B8048" FromRole="MayTinh" ToRole="ChiTietPhienChoi" />
+    <NavigationProperty Name="PhienChois" Relationship="Self.FK__PhienChoi__ma_ma__5812160E" FromRole="MayTinh" ToRole="PhienChoi" />
+  </EntityType>
+  <EntityType Name="NguoiDung">
+    <Key>
+      <PropertyRef Name="ma_nguoi_dung" />
+    </Key>
+    <Property Name="ma_nguoi_dung" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ten_dang_nhap" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="mat_khau" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="vai_tro" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ho_ten" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="dien_thoai" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="so_du" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="ngay_tao" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="GiaoDiches" Relationship="Self.FK__GiaoDich__ma_ngu__5DCAEF64" FromRole="NguoiDung" ToRole="GiaoDich" />
+    <NavigationProperty Name="PhienChois" Relationship="Self.FK__PhienChoi__ma_ng__571DF1D5" FromRole="NguoiDung" ToRole="PhienChoi" />
+  </EntityType>
+  <EntityType Name="PhienChoi">
+    <Key>
+      <PropertyRef Name="ma_phien" />
+    </Key>
+    <Property Name="ma_phien" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ma_nguoi_dung" Type="Int32" />
+    <Property Name="ma_may_tinh" Type="Int32" />
+    <Property Name="thoi_gian_bat_dau" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="thoi_gian_ket_thuc" Type="DateTime" Precision="3" />
+    <Property Name="tong_thoi_gian" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="tong_chi_phi" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="trang_thai" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ChiTietPhienChois" Relationship="Self.FK__ChiTietPh__ma_ph__60A75C0F" FromRole="PhienChoi" ToRole="ChiTietPhienChoi" />
+    <NavigationProperty Name="MayTinh" Relationship="Self.FK__PhienChoi__ma_ma__5812160E" FromRole="PhienChoi" ToRole="MayTinh" />
+    <NavigationProperty Name="NguoiDung" Relationship="Self.FK__PhienChoi__ma_ng__571DF1D5" FromRole="PhienChoi" ToRole="NguoiDung" />
+  </EntityType>
+  <Association Name="FK__ChiTietPh__ma_ma__619B8048">
+    <End Role="MayTinh" Type="Self.MayTinh" Multiplicity="0..1" />
+    <End Role="ChiTietPhienChoi" Type="Self.ChiTietPhienChoi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MayTinh">
+        <PropertyRef Name="ma_may_tinh" />
+      </Principal>
+      <Dependent Role="ChiTietPhienChoi">
+        <PropertyRef Name="ma_may_tinh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ChiTietPh__ma_ph__60A75C0F">
+    <End Role="PhienChoi" Type="Self.PhienChoi" Multiplicity="0..1" />
+    <End Role="ChiTietPhienChoi" Type="Self.ChiTietPhienChoi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhienChoi">
+        <PropertyRef Name="ma_phien" />
+      </Principal>
+      <Dependent Role="ChiTietPhienChoi">
+        <PropertyRef Name="ma_phien" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__GiaoDich__ma_ngu__5DCAEF64">
+    <End Role="NguoiDung" Type="Self.NguoiDung" Multiplicity="0..1" />
+    <End Role="GiaoDich" Type="Self.GiaoDich" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NguoiDung">
+        <PropertyRef Name="ma_nguoi_dung" />
+      </Principal>
+      <Dependent Role="GiaoDich">
+        <PropertyRef Name="ma_nguoi_dung" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PhienChoi__ma_ma__5812160E">
+    <End Role="MayTinh" Type="Self.MayTinh" Multiplicity="0..1" />
+    <End Role="PhienChoi" Type="Self.PhienChoi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MayTinh">
+        <PropertyRef Name="ma_may_tinh" />
+      </Principal>
+      <Dependent Role="PhienChoi">
+        <PropertyRef Name="ma_may_tinh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PhienChoi__ma_ng__571DF1D5">
+    <End Role="NguoiDung" Type="Self.NguoiDung" Multiplicity="0..1" />
+    <End Role="PhienChoi" Type="Self.PhienChoi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NguoiDung">
+        <PropertyRef Name="ma_nguoi_dung" />
+      </Principal>
+      <Dependent Role="PhienChoi">
+        <PropertyRef Name="ma_nguoi_dung" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="quan_ly_tiem_netEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ChiTietPhienChois" EntityType="Self.ChiTietPhienChoi" />
+    <EntitySet Name="GiaoDiches" EntityType="Self.GiaoDich" />
+    <EntitySet Name="MayTinhs" EntityType="Self.MayTinh" />
+    <EntitySet Name="NguoiDungs" EntityType="Self.NguoiDung" />
+    <EntitySet Name="PhienChois" EntityType="Self.PhienChoi" />
+    <AssociationSet Name="FK__ChiTietPh__ma_ma__619B8048" Association="Self.FK__ChiTietPh__ma_ma__619B8048">
+      <End Role="MayTinh" EntitySet="MayTinhs" />
+      <End Role="ChiTietPhienChoi" EntitySet="ChiTietPhienChois" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ChiTietPh__ma_ph__60A75C0F" Association="Self.FK__ChiTietPh__ma_ph__60A75C0F">
+      <End Role="PhienChoi" EntitySet="PhienChois" />
+      <End Role="ChiTietPhienChoi" EntitySet="ChiTietPhienChois" />
+    </AssociationSet>
+    <AssociationSet Name="FK__GiaoDich__ma_ngu__5DCAEF64" Association="Self.FK__GiaoDich__ma_ngu__5DCAEF64">
+      <End Role="NguoiDung" EntitySet="NguoiDungs" />
+      <End Role="GiaoDich" EntitySet="GiaoDiches" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PhienChoi__ma_ma__5812160E" Association="Self.FK__PhienChoi__ma_ma__5812160E">
+      <End Role="MayTinh" EntitySet="MayTinhs" />
+      <End Role="PhienChoi" EntitySet="PhienChois" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PhienChoi__ma_ng__571DF1D5" Association="Self.FK__PhienChoi__ma_ng__571DF1D5">
+      <End Role="NguoiDung" EntitySet="NguoiDungs" />
+      <End Role="PhienChoi" EntitySet="PhienChois" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

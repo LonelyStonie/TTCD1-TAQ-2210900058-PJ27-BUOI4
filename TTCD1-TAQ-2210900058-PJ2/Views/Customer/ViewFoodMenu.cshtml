@@ -1,0 +1,14 @@
+﻿@model IEnumerable<string>
+
+<h2>Menu Đồ Ăn</h2>
+
+<ul>
+    @foreach (var food in Model)
+    {
+        <li>@food</li>
+    }
+</ul>
+
+<p>
+    <a href="@Url.Action("ChooseComputer", "Customer")" class="btn btn-secondary">Quay lại chọn máy tính</a>
+</p>

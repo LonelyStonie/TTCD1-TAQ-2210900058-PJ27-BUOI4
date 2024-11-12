@@ -1,0 +1,270 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\ttcd1-taq-2210900058-pj2\\views\\customer\\viewfoodmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|solutionrelative:ttcd1-taq-2210900058-pj2\\views\\customer\\viewfoodmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\ttcd1-taq-2210900058-pj2\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|solutionrelative:ttcd1-taq-2210900058-pj2\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\ttcd1-taq-2210900058-pj2\\views\\customer\\choosecomputer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|solutionrelative:ttcd1-taq-2210900058-pj2\\views\\customer\\choosecomputer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\ttcd1-taq-2210900058-pj2\\controllers\\giaodichescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|solutionrelative:ttcd1-taq-2210900058-pj2\\controllers\\giaodichescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\ttcd1-taq-2210900058-pj2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|solutionrelative:ttcd1-taq-2210900058-pj2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\ttcd1-taq-2210900058-pj2\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|solutionrelative:ttcd1-taq-2210900058-pj2\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\ttcd1-taq-2210900058-pj2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|solutionrelative:ttcd1-taq-2210900058-pj2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\ttcd1-taq-2210900058-pj2\\controllers\\chitietphienchoiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|solutionrelative:ttcd1-taq-2210900058-pj2\\controllers\\chitietphienchoiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|c:\\users\\acer predator\\source\\repos\\ttcd1-taq-2210900058-pj2\\ttcd1-taq-2210900058-pj2\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|solutionrelative:ttcd1-taq-2210900058-pj2\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\ttcd1-taq-2210900058-pj2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|solutionrelative:ttcd1-taq-2210900058-pj2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\ttcd1-taq-2210900058-pj2\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|solutionrelative:ttcd1-taq-2210900058-pj2\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\ttcd1-taq-2210900058-pj2\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|solutionrelative:ttcd1-taq-2210900058-pj2\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\ttcd1-taq-2210900058-pj2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|solutionrelative:ttcd1-taq-2210900058-pj2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\ttcd1-taq-2210900058-pj2\\controllers\\phienchoiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|solutionrelative:ttcd1-taq-2210900058-pj2\\controllers\\phienchoiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\ttcd1-taq-2210900058-pj2\\controllers\\maytinhscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB2BC9F0-1344-4093-99E8-DEB079FCFD41}|TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2.csproj|solutionrelative:ttcd1-taq-2210900058-pj2\\controllers\\maytinhscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TTCD1-TAQ-2210900058-PJ2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TTCD1-TAQ-2210900058-PJ2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAABYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T09:48:17.476Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GiaoDichesController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Controllers\\GiaoDichesController.cs",
+              "RelativeDocumentMoniker": "TTCD1-TAQ-2210900058-PJ2\\Controllers\\GiaoDichesController.cs",
+              "ToolTip": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Controllers\\GiaoDichesController.cs",
+              "RelativeToolTip": "TTCD1-TAQ-2210900058-PJ2\\Controllers\\GiaoDichesController.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAwwAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T09:47:02.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChooseComputer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Views\\Customer\\ChooseComputer.cshtml",
+              "RelativeDocumentMoniker": "TTCD1-TAQ-2210900058-PJ2\\Views\\Customer\\ChooseComputer.cshtml",
+              "ToolTip": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Views\\Customer\\ChooseComputer.cshtml",
+              "RelativeToolTip": "TTCD1-TAQ-2210900058-PJ2\\Views\\Customer\\ChooseComputer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T09:08:28.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "TTCD1-TAQ-2210900058-PJ2\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "TTCD1-TAQ-2210900058-PJ2\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAIwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:55:16.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewFoodMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Views\\Customer\\ViewFoodMenu.cshtml",
+              "RelativeDocumentMoniker": "TTCD1-TAQ-2210900058-PJ2\\Views\\Customer\\ViewFoodMenu.cshtml",
+              "ToolTip": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Views\\Customer\\ViewFoodMenu.cshtml",
+              "RelativeToolTip": "TTCD1-TAQ-2210900058-PJ2\\Views\\Customer\\ViewFoodMenu.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T08:54:47.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "TTCD1-TAQ-2210900058-PJ2\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "TTCD1-TAQ-2210900058-PJ2\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:53:02.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TTCD1-TAQ-2210900058-PJ2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TTCD1-TAQ-2210900058-PJ2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T08:26:57.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChiTietPhienChoisController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Controllers\\ChiTietPhienChoisController.cs",
+              "RelativeDocumentMoniker": "TTCD1-TAQ-2210900058-PJ2\\Controllers\\ChiTietPhienChoisController.cs",
+              "ToolTip": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Controllers\\ChiTietPhienChoisController.cs",
+              "RelativeToolTip": "TTCD1-TAQ-2210900058-PJ2\\Controllers\\ChiTietPhienChoisController.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T09:46:48.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "TTCD1-TAQ-2210900058-PJ2\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "TTCD1-TAQ-2210900058-PJ2\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:28:33.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "TTCD1-TAQ-2210900058-PJ2\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "TTCD1-TAQ-2210900058-PJ2\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T08:30:10.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TTCD1-TAQ-2210900058-PJ2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TTCD1-TAQ-2210900058-PJ2\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAIwBUAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:21:54.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PhienChoisController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Controllers\\PhienChoisController.cs",
+              "RelativeDocumentMoniker": "TTCD1-TAQ-2210900058-PJ2\\Controllers\\PhienChoisController.cs",
+              "ToolTip": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Controllers\\PhienChoisController.cs",
+              "RelativeToolTip": "TTCD1-TAQ-2210900058-PJ2\\Controllers\\PhienChoisController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T09:47:40.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "TTCD1-TAQ-2210900058-PJ2\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "TTCD1-TAQ-2210900058-PJ2\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T06:53:11.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NguoiDungsController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Controllers\\NguoiDungsController.cs",
+              "RelativeDocumentMoniker": "TTCD1-TAQ-2210900058-PJ2\\Controllers\\NguoiDungsController.cs",
+              "ToolTip": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Controllers\\NguoiDungsController.cs",
+              "RelativeToolTip": "TTCD1-TAQ-2210900058-PJ2\\Controllers\\NguoiDungsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T09:47:27.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MayTinhsController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Controllers\\MayTinhsController.cs",
+              "RelativeDocumentMoniker": "TTCD1-TAQ-2210900058-PJ2\\Controllers\\MayTinhsController.cs",
+              "ToolTip": "C:\\Users\\Acer predator\\source\\repos\\TTCD1-TAQ-2210900058-PJ2\\TTCD1-TAQ-2210900058-PJ2\\Controllers\\MayTinhsController.cs",
+              "RelativeToolTip": "TTCD1-TAQ-2210900058-PJ2\\Controllers\\MayTinhsController.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAIwCsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T09:47:14.611Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
